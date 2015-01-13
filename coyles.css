@@ -1,0 +1,70 @@
+body {
+  font-family: 'Lato';
+}
+
+h1, h2 {
+  font-family: 'Crimson Text';
+}
+
+.intro {
+  display: table;
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+  padding: 50px 0px 100px 0px;
+  text-align: center;
+  color: #FFF;
+  background: url(pastry.jpg) no-repeat bottom center scroll;
+  background-color: #fff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.intro h1 {
+  font-size: 42px;
+  text-transform: uppercase;
+}
+
+.email-box {
+  padding: 20px;
+  background-color: #5a4a42;
+}
+
+.email-box h2 {
+  margin-top: 0;
+}
+
+#who {
+  font-size: 18px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+img#collage {
+  min-width: 100%;
+}
+
+#social {
+  background-color: #4f695c;
+  color: #FFF;
+  font-size: 18px;
+  padding: 30px;
+}
+
+#social p {
+  margin-bottom: 0;
+}
+
+#social a {
+  color: #88B6DD;
+}
+
+#social a:hover {
+  color: #FFF;
+}
+
+footer {
+  padding: 30px;
+}
